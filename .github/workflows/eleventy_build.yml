@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build
-        uses: TartanLlama/actions-eleventy@v1
+        uses: TartanLlama/actions-eleventy@master
         with:
           args: --output=mysite
       - name: Deploy
